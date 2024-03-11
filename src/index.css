@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 2px #1128015b;
+  }
+  .img-shadow {
+    filter: drop-shadow(40px 50px 25px #300000eb);
+  }
+  .img-shadow2 {
+    filter: drop-shadow(10px 30px 15px #303030);
+  }
+  .secondary-btn {
+    @apply bg-primary w-full text-white px-4 py-2 rounded-md hover:bg-secondary duration-200;
+  }
+  .primary-btn {
+    @apply border border-white px-4 py-2 rounded-lg;
+  }
+  .img {
+    margin-top: 100px;
+  }
+  .icon {
+    margin-left: 40px;
+  }
+  .input-style {
+    @apply px-4 py-2 border-[1px] border-gray-400 rounded-md;
+  }
+  .banner {
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+}
